@@ -2,22 +2,21 @@
 
 <div align="left">
   
-  <ul>
-  
-  <li>This project is to create a web application using HTML, CSS, JS and React. </li>
-  <li>We use JSX instead of HTML and JS.  </li>
-  <li>State variables and React components are used to manage and store data dynamically. </li> 
-  <li>This project also makes use of Material UI which is an open-source React component library that implements Google's Material Design. </li> 
-  <li>Fuse.js is used for the search interface, it is a lightweight fuzzy-search library in JavaScript. </li>
-  </ul>
+ This project's aim is to create a web application using React state variables and components to manage state and store data dynamically. It also include search features and dynamic menu configuration features. Material UI is used to build the Menu/SubMenu interface.
+ 
 </div>
 <br/>
 
 ### Overview
 
 <div align="left">
-React Web Application project's goal is to design and develop a "React" learning portal using HTML, CSS, JS and React. This project encourages the use of components to make the build dynamic and easy to modify. Configuration of new pages will simply require creating a new component and adding it to the original App.js file. There are few new features added to this project compared to the previous web application project using only JavaScript. This project has search features using fuse.js - it is a fuzzy search method which helps to search for text that matches a term closely instead of exactly. It also has Material UI library for building the Menu/Submenu components as well as Material Icons. 
-</div>
+  <ul>
+  <li>React Web Application project's goal is to design and develop a "React" learning portal using HTML, CSS, JS and React. </li>
+  <li>This project encourages the use of React Components, React Router DOM, React State Variables etc., to make the build dynamic and easy to configure, adding new pages will simply require creating a new component and linking it to the original App.js file. </li>
+  <li>This project has search features using fuse.js - it is a fuzzy search method which helps to search for text that matches a term closely instead of exactly. </li>
+  <li>It also has Material UI which is an open-source React component library that implements Google's Material Design for building the Menu/Submenu components as well as Material Icons.</li> 
+  </ul>
+  </div>
 
 <br/>
 
