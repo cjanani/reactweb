@@ -1,7 +1,7 @@
 import React from 'react'
-import '../App1.css';
+import '../App.css';
 
-const ReactHome = () => {
+const ReactFeatures = () => {
   return (
     <div>
   <p>
@@ -82,4 +82,4 @@ const ReactHome = () => {
 </p></div>
   )}
   
-  export default ReactHome
+  export default ReactFeatures

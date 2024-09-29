@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import './App1.css';
+import './App.css';
 import { Sidebar, Menu, SubMenu, MenuItem, } from "react-pro-sidebar";
 // import MenuIcon from '@mui/icons-material/Menu';
 import { useState} from 'react';
@@ -8,10 +8,10 @@ import Introduction from './Pages/Introduction';
 import ReactComponents from './Pages/ReactComponents';
 import Hello from './Pages/Hello';
 import ReactFeatures from './Pages/ReactFeatures'
-import SearchAppBar from './Pages/Search1';
+import SearchAppBar from './Pages/Search';
 import React from "react";
 import Fuse from "fuse.js";
-import { menuConfig } from '../src/Pages/reducedMenuConfig';
+import { menuConfig } from './Pages/reducedMenuConfig';
 import CloseIcon from '@mui/icons-material/Close';
 import Welcome from './Pages/Welcome';
 import ReactProps from './Pages/ReactProps'
@@ -31,7 +31,7 @@ const reducedMenuConfig = menuConfig.flatMap((item) => {
       
     });
 
-function App1() {
+function App() {
 
 const [collapsed, setCollapsed] = useState(true);
 const [dialogPop, setDialogPop] = useState(false);
@@ -246,4 +246,4 @@ const navigate = useNavigate();
   );
 }
 
-export default App1;
+export default App;
